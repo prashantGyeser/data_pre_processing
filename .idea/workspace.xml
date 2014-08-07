@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf19262-5b50-40ed-a755-c26d9bfce590" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_api_converter.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/converter.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.~lock.sample_twitter_api_output.csv#" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pre_processor.rb" afterPath="$PROJECT_DIR$/lib/pre_processor.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter_api_converter.rb" afterPath="$PROJECT_DIR$/twitter_api_converter.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/twitter_api_parser.rb" afterPath="$PROJECT_DIR$/lib/twitter_api_parser.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="data_pre_processing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="twitter_api_converter.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter_api_converter.rb">
+      <file leaf-file-name="pre_processor.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pre_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state vertical-scroll-proportion="3.0" vertical-offset="177" max-vertical-offset="765">
+              <caret line="5" column="351" selection-start-line="5" selection-start-column="340" selection-end-line="5" selection-end-column="351" />
               <folding />
             </state>
           </provider>
@@ -40,28 +40,18 @@
       <file leaf-file-name="twitter_api_parser.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/twitter_api_parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9517685" vertical-offset="803" max-vertical-offset="1785">
-              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.59003216" vertical-offset="1013" max-vertical-offset="1815">
+              <caret line="88" column="75" selection-start-line="88" selection-start-column="75" selection-end-line="88" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="convert_csv_row_to_hash.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/convert_csv_row_to_hash.rb">
+      <file leaf-file-name="twitter_api_converter.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter_api_converter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pre_processor.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pre_processor.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="5" column="400" selection-start-line="5" selection-start-column="400" selection-end-line="5" selection-end-column="400" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -89,10 +79,10 @@
         <option value="$PROJECT_DIR$/spec/lib/convert_csv_row_to_hash_spec.rb" />
         <option value="$PROJECT_DIR$/lib/convert_csv_row_to_hash.rb" />
         <option value="$PROJECT_DIR$/spec/lib/pre_processor_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/pre_processor.rb" />
         <option value="$PROJECT_DIR$/lib/url_checker.rb" />
         <option value="$PROJECT_DIR$/spec/lib/url_checker_spec.rb" />
         <option value="$PROJECT_DIR$/converter.rb" />
+        <option value="$PROJECT_DIR$/lib/pre_processor.rb" />
         <option value="$PROJECT_DIR$/twitter_api_converter.rb" />
         <option value="$PROJECT_DIR$/lib/twitter_api_parser.rb" />
       </list>
@@ -499,14 +489,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/pre_processor_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/url_checker.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -523,17 +505,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_api_converter.rb">
+    <entry file="file://$PROJECT_DIR$/spec/lib/pre_processor_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.07234727" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/convert_csv_row_to_hash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.28938907" vertical-offset="0" max-vertical-offset="622">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
@@ -541,16 +523,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pre_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="5" column="400" selection-start-line="5" selection-start-column="400" selection-end-line="5" selection-end-column="400" />
+        <state vertical-scroll-proportion="3.0" vertical-offset="177" max-vertical-offset="765">
+          <caret line="5" column="351" selection-start-line="5" selection-start-column="340" selection-end-line="5" selection-end-column="351" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_api_converter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/twitter_api_parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9517685" vertical-offset="803" max-vertical-offset="1785">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.59003216" vertical-offset="1013" max-vertical-offset="1815">
+          <caret line="88" column="75" selection-start-line="88" selection-start-column="75" selection-end-line="88" selection-end-column="75" />
           <folding />
         </state>
       </provider>

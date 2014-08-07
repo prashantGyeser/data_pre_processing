@@ -5,7 +5,7 @@ require './lib/url_checker'
 
 class TwitterApiParser
 
-  def process_rows(csv_file_path)
+  def process_rows(csv_file_path, csv_output_file_path)
 
     malformed_row_count = 0
     tweets_in_required_locations = 0
@@ -85,6 +85,8 @@ class TwitterApiParser
               end
 
               puts tweet_hash
+
+              CSV.open(csv_output_file_path, "a+") {|csv| csv << tweet_hash.values }
 
             end
           end

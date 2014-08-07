@@ -13,11 +13,13 @@ require './lib/twitter_api_parser'
 
 # Todo: Convert this so that it can take an input from the command line
 csv_file_to_process_path = "sample_twitter_api_output.csv"
+csv_output_file_path = "pre_processed_output.csv"
+
 
 puts "Beginning to process file..."
 
 # Sending the file for parsing and processing
 twitter_api_results_parser = TwitterApiParser.new
-twitter_api_results_parser.process_rows(csv_file_to_process_path)
+twitter_api_results_parser.process_rows(csv_file_to_process_path, csv_output_file_path)
 
 
