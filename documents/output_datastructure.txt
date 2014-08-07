@@ -1,0 +1,2 @@
+The output is currently a csv with the following format
+tweet_id, tweet_body, tweet_user_screen_name, twitter_user_id, twitter_user_lang, twitter_user_image_url, twitter_user_location

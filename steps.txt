@@ -1,0 +1,10 @@
+1. Find out if the file is json or csv
+2. If json file
+    2 a 1. Parse the json and extract the relevant info
+    2 b 2. Check if the parsed json meets the criteria
+3. Both the csv and json objects should be converted into a hash for further processing.
+
+A class to process a hash of values based on preset criteria. The criteria are
+    1. Location should be in the list of cities decided.
+        The tweets should be categrorized based on the cities
+        The tweets in the cities should be categorized based on the keyword present and a category should be added.
