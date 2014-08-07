@@ -50,4 +50,18 @@ RSpec.describe PreProcessor do
     expect(PreProcessor.does_location_belong_to_this_city?(hash_to_check[:location], location_array)).to be false
   end
 
+  # Category keywords check
+
+  it "should return true if the tweet string contains a keyword from the category keyword list" do
+    tweet_body = "I LUV ramen"
+    category_keyword_list = ["sushi", "ramen"]
+    expect(PreProcessor.does_tweet_contain_category_keywords?(tweet_body, category_keyword_list)).to be true
+  end
+
+  it "should return true when the word matched have different cases" do
+    tweet_body = "I LUV RAmen"
+    category_keyword_list = ["sushi", "ramen"]
+    expect(PreProcessor.does_tweet_contain_category_keywords?(tweet_body, category_keyword_list)).to be true
+  end
+
 end

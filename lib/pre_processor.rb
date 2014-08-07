@@ -27,6 +27,15 @@ class PreProcessor
 
   end
 
+  def self.does_tweet_contain_category_keywords?(tweet_body, category_keywords_array)
+    number_of_keywords_in_string = category_keywords_array.count{ |s| /\b#{s.downcase}\b/ =~ tweet_body.downcase }
+    if number_of_keywords_in_string > 0
+      return true
+    else
+      return false
+    end
+  end
+
 
 
 
